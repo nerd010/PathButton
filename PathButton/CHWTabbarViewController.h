@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CHWTabbarViewController.h
 //  PathButton
 //
 //  Created by 王增康 on 16/1/5.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CHWTabbarViewController : UITabBarController
 
 @end
-

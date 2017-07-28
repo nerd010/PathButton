@@ -7,17 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		565794A21C45CB510023EBD4 /* PathButtonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 565794A11C45CB510023EBD4 /* PathButtonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		565794A91C45CB510023EBD4 /* PathButtonKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5657949F1C45CB510023EBD4 /* PathButtonKit.framework */; };
+		565794B01C45CB510023EBD4 /* PathButtonKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 565794AF1C45CB510023EBD4 /* PathButtonKitTests.m */; };
+		565794B41C45CB510023EBD4 /* PathButtonKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5657949F1C45CB510023EBD4 /* PathButtonKit.framework */; };
+		565794B51C45CB510023EBD4 /* PathButtonKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5657949F1C45CB510023EBD4 /* PathButtonKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		565794BD1C45CBD40023EBD4 /* DCPathButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D73DF91C3C067400A0C5F9 /* DCPathButton.m */; };
+		565794BE1C45CBDB0023EBD4 /* DCPathItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D73DFB1C3C067400A0C5F9 /* DCPathItemButton.m */; };
+		565794BF1C45CBE60023EBD4 /* DCPathButton.h in Sources */ = {isa = PBXBuildFile; fileRef = 56D73DF81C3C067400A0C5F9 /* DCPathButton.h */; };
+		565794C01C45CBE60023EBD4 /* DCPathItemButton.h in Sources */ = {isa = PBXBuildFile; fileRef = 56D73DFA1C3C067400A0C5F9 /* DCPathItemButton.h */; };
 		56D73DC61C3C055600A0C5F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D73DC51C3C055600A0C5F9 /* main.m */; };
 		56D73DC91C3C055600A0C5F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D73DC81C3C055600A0C5F9 /* AppDelegate.m */; };
-		56D73DCC1C3C055600A0C5F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D73DCB1C3C055600A0C5F9 /* ViewController.m */; };
 		56D73DCF1C3C055700A0C5F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56D73DCD1C3C055700A0C5F9 /* Main.storyboard */; };
 		56D73DD11C3C055700A0C5F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56D73DD01C3C055700A0C5F9 /* Assets.xcassets */; };
 		56D73DD41C3C055700A0C5F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56D73DD21C3C055700A0C5F9 /* LaunchScreen.storyboard */; };
 		56D73DDF1C3C055700A0C5F9 /* PathButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D73DDE1C3C055700A0C5F9 /* PathButtonTests.m */; };
 		56D73DEA1C3C055700A0C5F9 /* PathButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D73DE91C3C055700A0C5F9 /* PathButtonUITests.m */; };
+		56D73E001C3C06A500A0C5F9 /* CHWTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D73DFF1C3C06A500A0C5F9 /* CHWTabbarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		565794AA1C45CB510023EBD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56D73DB91C3C055600A0C5F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5657949E1C45CB510023EBD4;
+			remoteInfo = PathButtonKit;
+		};
+		565794AC1C45CB510023EBD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56D73DB91C3C055600A0C5F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56D73DC01C3C055600A0C5F9;
+			remoteInfo = PathButton;
+		};
+		565794B21C45CB510023EBD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56D73DB91C3C055600A0C5F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5657949E1C45CB510023EBD4;
+			remoteInfo = PathButtonKit;
+		};
 		56D73DDB1C3C055700A0C5F9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 56D73DB91C3C055600A0C5F9 /* Project object */;
@@ -34,13 +64,31 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		565794BB1C45CB510023EBD4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				565794B51C45CB510023EBD4 /* PathButtonKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5657949F1C45CB510023EBD4 /* PathButtonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PathButtonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		565794A11C45CB510023EBD4 /* PathButtonKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PathButtonKit.h; sourceTree = "<group>"; };
+		565794A31C45CB510023EBD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		565794A81C45CB510023EBD4 /* PathButtonKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PathButtonKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		565794AF1C45CB510023EBD4 /* PathButtonKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PathButtonKitTests.m; sourceTree = "<group>"; };
+		565794B11C45CB510023EBD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56D73DC11C3C055600A0C5F9 /* PathButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PathButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56D73DC51C3C055600A0C5F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		56D73DC71C3C055600A0C5F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		56D73DC81C3C055600A0C5F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		56D73DCA1C3C055600A0C5F9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		56D73DCB1C3C055600A0C5F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		56D73DCE1C3C055700A0C5F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		56D73DD01C3C055700A0C5F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56D73DD31C3C055700A0C5F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,13 +99,35 @@
 		56D73DE51C3C055700A0C5F9 /* PathButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PathButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56D73DE91C3C055700A0C5F9 /* PathButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PathButtonUITests.m; sourceTree = "<group>"; };
 		56D73DEB1C3C055700A0C5F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56D73DF81C3C067400A0C5F9 /* DCPathButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DCPathButton.h; path = DCPathButton/Classes/DCPathButton.h; sourceTree = "<group>"; };
+		56D73DF91C3C067400A0C5F9 /* DCPathButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DCPathButton.m; path = DCPathButton/Classes/DCPathButton.m; sourceTree = "<group>"; };
+		56D73DFA1C3C067400A0C5F9 /* DCPathItemButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DCPathItemButton.h; path = DCPathButton/Classes/DCPathItemButton.h; sourceTree = "<group>"; };
+		56D73DFB1C3C067400A0C5F9 /* DCPathItemButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DCPathItemButton.m; path = DCPathButton/Classes/DCPathItemButton.m; sourceTree = "<group>"; };
+		56D73DFE1C3C06A500A0C5F9 /* CHWTabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHWTabbarViewController.h; sourceTree = "<group>"; };
+		56D73DFF1C3C06A500A0C5F9 /* CHWTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHWTabbarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5657949B1C45CB510023EBD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565794A51C45CB510023EBD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565794A91C45CB510023EBD4 /* PathButtonKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		56D73DBE1C3C055600A0C5F9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				565794B41C45CB510023EBD4 /* PathButtonKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +148,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		565794A01C45CB510023EBD4 /* PathButtonKit */ = {
+			isa = PBXGroup;
+			children = (
+				565794A11C45CB510023EBD4 /* PathButtonKit.h */,
+				565794A31C45CB510023EBD4 /* Info.plist */,
+			);
+			path = PathButtonKit;
+			sourceTree = "<group>";
+		};
+		565794AE1C45CB510023EBD4 /* PathButtonKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				565794AF1C45CB510023EBD4 /* PathButtonKitTests.m */,
+				565794B11C45CB510023EBD4 /* Info.plist */,
+			);
+			path = PathButtonKitTests;
+			sourceTree = "<group>";
+		};
 		56D73DB81C3C055600A0C5F9 = {
 			isa = PBXGroup;
 			children = (
 				56D73DC31C3C055600A0C5F9 /* PathButton */,
 				56D73DDD1C3C055700A0C5F9 /* PathButtonTests */,
 				56D73DE81C3C055700A0C5F9 /* PathButtonUITests */,
+				565794A01C45CB510023EBD4 /* PathButtonKit */,
+				565794AE1C45CB510023EBD4 /* PathButtonKitTests */,
 				56D73DC21C3C055600A0C5F9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +184,8 @@
 				56D73DC11C3C055600A0C5F9 /* PathButton.app */,
 				56D73DDA1C3C055700A0C5F9 /* PathButtonTests.xctest */,
 				56D73DE51C3C055700A0C5F9 /* PathButtonUITests.xctest */,
+				5657949F1C45CB510023EBD4 /* PathButtonKit.framework */,
+				565794A81C45CB510023EBD4 /* PathButtonKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,9 +195,10 @@
 			children = (
 				56D73DC71C3C055600A0C5F9 /* AppDelegate.h */,
 				56D73DC81C3C055600A0C5F9 /* AppDelegate.m */,
-				56D73DCA1C3C055600A0C5F9 /* ViewController.h */,
-				56D73DCB1C3C055600A0C5F9 /* ViewController.m */,
+				56D73DFE1C3C06A500A0C5F9 /* CHWTabbarViewController.h */,
+				56D73DFF1C3C06A500A0C5F9 /* CHWTabbarViewController.m */,
 				56D73DCD1C3C055700A0C5F9 /* Main.storyboard */,
+				56D73DF71C3C05E600A0C5F9 /* DCPathButton */,
 				56D73DD01C3C055700A0C5F9 /* Assets.xcassets */,
 				56D73DD21C3C055700A0C5F9 /* LaunchScreen.storyboard */,
 				56D73DD51C3C055700A0C5F9 /* Info.plist */,
@@ -140,9 +233,68 @@
 			path = PathButtonUITests;
 			sourceTree = "<group>";
 		};
+		56D73DF71C3C05E600A0C5F9 /* DCPathButton */ = {
+			isa = PBXGroup;
+			children = (
+				56D73DF81C3C067400A0C5F9 /* DCPathButton.h */,
+				56D73DF91C3C067400A0C5F9 /* DCPathButton.m */,
+				56D73DFA1C3C067400A0C5F9 /* DCPathItemButton.h */,
+				56D73DFB1C3C067400A0C5F9 /* DCPathItemButton.m */,
+			);
+			name = DCPathButton;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		5657949C1C45CB510023EBD4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565794A21C45CB510023EBD4 /* PathButtonKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		5657949E1C45CB510023EBD4 /* PathButtonKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 565794BA1C45CB510023EBD4 /* Build configuration list for PBXNativeTarget "PathButtonKit" */;
+			buildPhases = (
+				5657949A1C45CB510023EBD4 /* Sources */,
+				5657949B1C45CB510023EBD4 /* Frameworks */,
+				5657949C1C45CB510023EBD4 /* Headers */,
+				5657949D1C45CB510023EBD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PathButtonKit;
+			productName = PathButtonKit;
+			productReference = 5657949F1C45CB510023EBD4 /* PathButtonKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		565794A71C45CB510023EBD4 /* PathButtonKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 565794BC1C45CB510023EBD4 /* Build configuration list for PBXNativeTarget "PathButtonKitTests" */;
+			buildPhases = (
+				565794A41C45CB510023EBD4 /* Sources */,
+				565794A51C45CB510023EBD4 /* Frameworks */,
+				565794A61C45CB510023EBD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				565794AB1C45CB510023EBD4 /* PBXTargetDependency */,
+				565794AD1C45CB510023EBD4 /* PBXTargetDependency */,
+			);
+			name = PathButtonKitTests;
+			productName = PathButtonKitTests;
+			productReference = 565794A81C45CB510023EBD4 /* PathButtonKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		56D73DC01C3C055600A0C5F9 /* PathButton */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56D73DEE1C3C055700A0C5F9 /* Build configuration list for PBXNativeTarget "PathButton" */;
@@ -150,10 +302,12 @@
 				56D73DBD1C3C055600A0C5F9 /* Sources */,
 				56D73DBE1C3C055600A0C5F9 /* Frameworks */,
 				56D73DBF1C3C055600A0C5F9 /* Resources */,
+				565794BB1C45CB510023EBD4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				565794B31C45CB510023EBD4 /* PBXTargetDependency */,
 			);
 			name = PathButton;
 			productName = PathButton;
@@ -205,6 +359,15 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = CHW;
 				TargetAttributes = {
+					5657949E1C45CB510023EBD4 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = AAHU74A457;
+					};
+					565794A71C45CB510023EBD4 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = AAHU74A457;
+						TestTargetID = 56D73DC01C3C055600A0C5F9;
+					};
 					56D73DC01C3C055600A0C5F9 = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = AAHU74A457;
@@ -237,11 +400,27 @@
 				56D73DC01C3C055600A0C5F9 /* PathButton */,
 				56D73DD91C3C055700A0C5F9 /* PathButtonTests */,
 				56D73DE41C3C055700A0C5F9 /* PathButtonUITests */,
+				5657949E1C45CB510023EBD4 /* PathButtonKit */,
+				565794A71C45CB510023EBD4 /* PathButtonKitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5657949D1C45CB510023EBD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565794A61C45CB510023EBD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		56D73DBF1C3C055600A0C5F9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -269,11 +448,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5657949A1C45CB510023EBD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565794BF1C45CBE60023EBD4 /* DCPathButton.h in Sources */,
+				565794C01C45CBE60023EBD4 /* DCPathItemButton.h in Sources */,
+				565794BE1C45CBDB0023EBD4 /* DCPathItemButton.m in Sources */,
+				565794BD1C45CBD40023EBD4 /* DCPathButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565794A41C45CB510023EBD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565794B01C45CB510023EBD4 /* PathButtonKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		56D73DBD1C3C055600A0C5F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56D73DCC1C3C055600A0C5F9 /* ViewController.m in Sources */,
+				56D73E001C3C06A500A0C5F9 /* CHWTabbarViewController.m in Sources */,
 				56D73DC91C3C055600A0C5F9 /* AppDelegate.m in Sources */,
 				56D73DC61C3C055600A0C5F9 /* main.m in Sources */,
 			);
@@ -298,6 +496,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		565794AB1C45CB510023EBD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5657949E1C45CB510023EBD4 /* PathButtonKit */;
+			targetProxy = 565794AA1C45CB510023EBD4 /* PBXContainerItemProxy */;
+		};
+		565794AD1C45CB510023EBD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56D73DC01C3C055600A0C5F9 /* PathButton */;
+			targetProxy = 565794AC1C45CB510023EBD4 /* PBXContainerItemProxy */;
+		};
+		565794B31C45CB510023EBD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5657949E1C45CB510023EBD4 /* PathButtonKit */;
+			targetProxy = 565794B21C45CB510023EBD4 /* PBXContainerItemProxy */;
+		};
 		56D73DDC1C3C055700A0C5F9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 56D73DC01C3C055600A0C5F9 /* PathButton */;
@@ -330,6 +543,68 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		565794B61C45CB510023EBD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PathButtonKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CHW.PathButtonKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		565794B71C45CB510023EBD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PathButtonKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CHW.PathButtonKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		565794B81C45CB510023EBD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PathButtonKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CHW.PathButtonKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PathButton.app/PathButton";
+			};
+			name = Debug;
+		};
+		565794B91C45CB510023EBD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PathButtonKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CHW.PathButtonKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PathButton.app/PathButton";
+			};
+			name = Release;
+		};
 		56D73DEC1C3C055700A0C5F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -483,6 +758,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		565794BA1C45CB510023EBD4 /* Build configuration list for PBXNativeTarget "PathButtonKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				565794B61C45CB510023EBD4 /* Debug */,
+				565794B71C45CB510023EBD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		565794BC1C45CB510023EBD4 /* Build configuration list for PBXNativeTarget "PathButtonKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				565794B81C45CB510023EBD4 /* Debug */,
+				565794B91C45CB510023EBD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		56D73DBC1C3C055600A0C5F9 /* Build configuration list for PBXProject "PathButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -499,6 +790,7 @@
 				56D73DF01C3C055700A0C5F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56D73DF11C3C055700A0C5F9 /* Build configuration list for PBXNativeTarget "PathButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +799,7 @@
 				56D73DF31C3C055700A0C5F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56D73DF41C3C055700A0C5F9 /* Build configuration list for PBXNativeTarget "PathButtonUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +808,7 @@
 				56D73DF61C3C055700A0C5F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

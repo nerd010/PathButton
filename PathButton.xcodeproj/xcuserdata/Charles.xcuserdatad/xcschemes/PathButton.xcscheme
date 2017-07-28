@@ -48,6 +48,16 @@
                ReferencedContainer = "container:PathButton.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "565794A71C45CB510023EBD4"
+               BuildableName = "PathButtonKitTests.xctest"
+               BlueprintName = "PathButtonKitTests"
+               ReferencedContainer = "container:PathButton.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
