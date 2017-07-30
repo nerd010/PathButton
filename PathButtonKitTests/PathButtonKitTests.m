@@ -2,7 +2,7 @@
 //  PathButtonKitTests.m
 //  PathButtonKitTests
 //
-//  Created by 王增康 on 16/1/13.
+//  Created by chw on 16/1/13.
 //  Copyright © 2016年 CHW. All rights reserved.
 //
 
